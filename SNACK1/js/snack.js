@@ -12,9 +12,9 @@ const bici = [
 let lightBici = bici[0];
 
 // ultilizzo ciclo per trovare bici con il peso minore
-for (let i = 1; i < bici.length; i++) {
+for (let i = 0; i < bici.length; i++) {
   if (bici[i].peso < lightBici.peso) {
-    lightBici = bici[0];
+    lightBici = bici[i];
   }
 }
 
