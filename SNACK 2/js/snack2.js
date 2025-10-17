@@ -21,5 +21,14 @@ for (let i = 0; i < squadre.length; i++) {
   squadre[i].falliSubiti = randomNumb(0, 50);
 }
 // creo array solo per i nomi e falli
+const soloFalli = [];
 
+for (let i = 0; i < squadre.length; i++) {
+  const squadra = squadre[i];
+  const newObj = {
+    nome: squadra.nome,
+    falliSubiti: squadra.falliSubiti,
+  };
+  soloFalli.push(newObj);
+}
 // stampo il risultato
