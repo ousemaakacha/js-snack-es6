@@ -7,3 +7,6 @@ const bici = [
   { nome: "Specialized Tarmac", peso: 6.5 },
   { nome: "Cannondale SuperSix", peso: 7.0 },
 ];
+
+// inizio con stabilere una variabile per bici piú  leggera
+let lightBici = bici[0];
