@@ -10,3 +10,12 @@ const bici = [
 
 // inizio con stabilere una variabile per bici piú  leggera
 let lightBici = bici[0];
+
+// ultilizzo ciclo per trovare bici con il peso minore
+for (let i = 1; i < bici.length; i++) {
+  if (bici[i].peso < lightBici.peso) {
+    lightBici = bici[0];
+  }
+}
+
+console.log(lightBici.nome);
