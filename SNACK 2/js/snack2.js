@@ -32,3 +32,5 @@ for (let i = 0; i < squadre.length; i++) {
   soloFalli.push(newObj);
 }
 // stampo il risultato
+console.log("Tutte le squadre:", squadre);
+console.log("Solo nomi e falli subiti:", soloFalli);
