@@ -11,6 +11,9 @@ const squadre = [
 ];
 
 // scrivo funzione per generare numeri random
+function randomNumb(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
 //  ciclo for per numeri casuali punti e falli
 
