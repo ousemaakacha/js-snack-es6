@@ -9,3 +9,11 @@ const squadre = [
   { nome: "Napoli", puntiFatti: 0, falliSubiti: 0 },
   { nome: "Roma", puntiFatti: 0, falliSubiti: 0 },
 ];
+
+// scrivo funzione per generare numeri random
+
+//  ciclo for per numeri casuali punti e falli
+
+// creo array solo per i nomi e falli
+
+// stampo il risultato
