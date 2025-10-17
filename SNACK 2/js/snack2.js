@@ -16,7 +16,10 @@ function randomNumb(min, max) {
 }
 
 //  ciclo for per numeri casuali punti e falli
-
+for (let i = 0; i < squadre.length; i++) {
+  squadre[i].puntiFatti = randomNumb(0, 100);
+  squadre[i].falliSubiti = randomNumb(0, 50);
+}
 // creo array solo per i nomi e falli
 
 // stampo il risultato
